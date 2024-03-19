@@ -1,4 +1,30 @@
 @font-face {
+  font-family: "Right Grotesk";
+  src: local("Right Grotesk Compact Black"),
+    url("RightGrotesk-CompactBlack.otf");
+}
+@font-face {
+  font-family: "Right Grotesk Medium";
+  src: local("Right Grotes Medium"), url("RightGrotesk-Medium.otf");
+}
+@font-face {
+  font-family: "Right Grotesk NarrowLight";
+  src: local("Right Grotesk NarrowLight"), url("RightGrotesk-NarrowLight.otf");
+}
+@font-face {
+  font-family: "Right Grotesk spatialblack";
+  src: local("Right Grotesk spatialblack"), url("rightgrotesk-spatialblack.otf");
+}
+@font-face {
+  font-family: "Right Grotesk TightMedium";
+  src: local("Right Grotesk TightMedium"), url("RightGrotesk-TightMedium.otf");
+}
+@font-face {
+  font-family: "Right Grotesk WideMedium";
+  src: local("Right Grotesk WideMedium"), url("RightGrotesk-WideMedium.otf");
+}
+
+@font-face {
   font-family: "Biro Script Plus Bold US";
   src: url("BiroScriptUSPlus-Bold.eot");
   src: local("Biro Script Plus Bold US"), local("BiroScriptUSPlus-Bold"),
@@ -143,3 +169,5 @@
   font-weight: 900;
   font-style: normal;
 }
+
+/* RIGHT GROTESK */
