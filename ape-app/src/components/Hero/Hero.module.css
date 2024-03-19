@@ -1,8 +1,30 @@
 .heroSection {
   width: 344px;
   height: 542px;
+  padding: ;
 
   background-color: #dc3b5a;
 
   border-radius: 12px;
+}
+
+.heroPreTitle {
+  color: #1e1e1e;
+
+  font-family: "Biro Script Plus";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+
+.heroMainTitle {
+  color: #1e1e1e;
+
+  font-family: "Right Grotesk";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px; /* 100% */
+  letter-spacing: 0.44px;
 }

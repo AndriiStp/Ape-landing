@@ -12,13 +12,13 @@ const Hero = () => {
   return (
     <>
       <section className={css.heroSection}>
-        <p>diD yOu seE iT ?</p>
-        <h1>YACHT APES</h1>
-        <p>Apes aRe eveRywhere</p>
+        <p className={css.heroPreTitle}>diD yOu seE iT ?</p>
+        <h1 className={css.heroMainTitle}>YACHT APES</h1>
+        <p className={css.heroPreTitle}>Apes aRe eveRywhere</p>
         <picture>
           <source
             srcSet={`${apeImageDesk1x} 1x, ${apeImageDesk2x} 2x`}
-            media="(min-width: 1440px)"
+            media="(min-width: 1280px)"
             sizes="min-width: 150px"
           />
 
@@ -29,7 +29,7 @@ const Hero = () => {
           />
           <source
             srcSet={`${apeImageMobile1x} 1x, ${apeImageMobile2x} 2x`}
-            media="(max-width: 767px)"
+            media="(max-width: 480px)"
             sizes="150px"
           />
           <img
@@ -40,6 +40,10 @@ const Hero = () => {
           />
         </picture>
         <ButtonMeetApes />
+        <p>
+          Yacht Ape is a collection of unique digital apes that you can own in
+          NFT format
+        </p>
       </section>
     </>
   );
