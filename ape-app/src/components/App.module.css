@@ -1,0 +1,13 @@
+.app {
+  padding-top: 54px;
+  background: #181818;
+}
+
+.container {
+  background-color: #dc3b5a;
+
+  height: 542px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 12px;
+}

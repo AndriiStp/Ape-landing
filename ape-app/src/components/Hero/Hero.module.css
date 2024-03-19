@@ -1,11 +1,9 @@
 .heroSection {
-  width: 344px;
-  height: 542px;
-  padding: 36px 64px 19px 64px;
-
-  background-color: #dc3b5a;
-
-  border-radius: 12px;
+  /* height: 542px; */
+  /* padding: 36px 64px 19px 64px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media screen and (min-width: 768px) {
     width: 736px;
@@ -53,6 +51,7 @@
 }
 
 .heroDescr {
+  width: 217px;
   color: #1e1e1e;
 
   text-align: center;
