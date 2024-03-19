@@ -57,8 +57,22 @@ const About = () => {
           loading="lazy"
         />
       </picture>
+
       <div className={css.marqueeBlock}>
-        <div className={css.marquee}>HAVE NO LIMITS</div>
+        <div className={css.marqueeContent}>
+          <div className={css.marqueeText}>
+            <div>HAVE NO LIMITS</div>
+            <img className={css.marqueeCross} src={crossDivide} alt="cross" />
+          </div>
+          <div className={css.marqueeText}>
+            <div>HAVE NO LIMITS</div>
+            <img className={css.marqueeCross} src={crossDivide} alt="cross" />
+          </div>
+          <div className={css.marqueeText}>
+            <div>HAVE NO LIMITS</div>
+            <img className={css.marqueeCross} src={crossDivide} alt="cross" />
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -60,23 +60,48 @@
 }
 
 .marqueeBlock {
-  padding-top: 8px;
-  padding-bottom: 6px;
-  width: 100%;
+  padding: 6px 0;
+
+  max-width: 100%;
+  overflow: hidden;
   height: 52px;
-  background-color: #dc3b5a;
+  background: #dc3b5a;
+  color: #fff;
   text-align: center;
   align-items: center;
   margin-top: 8px;
   margin-bottom: 8px;
 }
-.marquee {
-  color: #fff;
 
+@keyframes marquee-infinite {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marqueeContent {
+  display: flex;
+
+  flex-direction: row;
+  animation: marquee-infinite 10s linear infinite;
+}
+.marqueeText {
+  display: flex;
+  flex-shrink: 0;
+  gap: 24px;
   font-family: "Right Grotesk";
   font-size: 36px;
   font-style: normal;
   font-weight: 900;
-  line-height: 36px; /* 100% */
+  line-height: 1;
   text-transform: uppercase;
+}
+
+.marqueeCross {
+  width: 36px;
+  height: 36px;
+  margin-right: 24px;
 }
