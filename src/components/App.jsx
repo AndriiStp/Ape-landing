@@ -3,6 +3,7 @@ import css from "./App.module.css";
 import Hero from "./Hero/Hero";
 import Header from "./Header/Header";
 import About from "./About/About";
+import MindMap from "./MindMap/MindMap";
 
 function GlobalWrapper() {
   return (
@@ -12,6 +13,7 @@ function GlobalWrapper() {
         <Hero />
       </div>
       <About />
+      <MindMap />
     </div>
   );
 }

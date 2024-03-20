@@ -32,6 +32,7 @@ const About = () => {
         <br /> ESCAPING AND DYNAMIC
         <br /> JOURNEY ON THE YACHT
       </p>
+
       <img className={css.crossDivider} src={crossDivide} alt="divider"></img>
       <p className={css.aboutText}>
         EACH ARTWORK IN THE COLLECTION TELLS A STORY OF ONE JOURNEY. ARTS ARE
