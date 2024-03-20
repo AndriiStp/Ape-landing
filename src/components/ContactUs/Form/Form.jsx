@@ -1,13 +1,14 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
-import React from "react";
+import Notiflix from "notiflix";
 import css from "./Form.module.css";
 
 import svgDiscord from "../../../images/svg/discord.svg";
 import svgMetamask from "../../../images/svg/SVG_MetaMask_Icon_Color 1.svg";
+
 const ContactForm = () => {
   const handleSubmit = (values, { resetForm }) => {
-    console.log(values);
+    Notiflix.Notify.success("You are already MINT'ed");
     resetForm();
   };
 
@@ -17,8 +18,16 @@ const ContactForm = () => {
   };
 
   let userSchema = yup.object({
-    discord: yup.string().min(6).max(16).required("Wrong discord"),
-    metamask: yup.string().min(6).max(16).required("Wrong ADDRESS"),
+    discord: yup
+      .string()
+      .min(6, "Too short")
+      .max(16, "Too Long")
+      .required("Wrong discord"),
+    metamask: yup
+      .string()
+      .min(6, "Too short")
+      .max(16, "Too Long")
+      .required("Wrong ADDRESS"),
   });
 
   return (
@@ -31,7 +40,11 @@ const ContactForm = () => {
         <Form autoComplete="off" className={css.contactForm}>
           <div className={css.inputWapper}>
             <div className={css.inputBefore}>
-              <img src={svgDiscord} alt="" />
+              <img
+                src={svgDiscord}
+                alt=""
+                style={{ width: "24px", height: "24px" }}
+              />
             </div>
             <Field
               placeholder="@username"
@@ -47,7 +60,11 @@ const ContactForm = () => {
           />
           <div className={css.inputWapper}>
             <div className={css.inputBefore}>
-              <img src={svgMetamask} alt="" />
+              <img
+                style={{ width: "24px", height: "24px" }}
+                src={svgMetamask}
+                alt=""
+              />
             </div>
             <Field
               placeholder="Wallet address"

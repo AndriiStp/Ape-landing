@@ -5,7 +5,7 @@
 }
 
 .contactField {
-  width: 216px;
+  width: 168px;
   height: 48px;
   padding: 22px 24px;
   align-items: center;
@@ -15,15 +15,10 @@
   border: 1px solid #1e1e1e;
   color: #fff;
 }
-/* .contactField::after {
-  width: 48px;
-  height: 48px;
 
-  background-color: orange;
-
-  backdrop-filter: blur(6px);
-} */
-
+.contactField:invalid {
+  border-color: #dc3b5a;
+}
 .contactError {
   color: #dc3b5a;
 
