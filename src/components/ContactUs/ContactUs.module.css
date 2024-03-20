@@ -1,0 +1,38 @@
+.contactUs {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactUsTitle {
+  margin-bottom: 24px;
+  color: #fff;
+
+  font-family: "Right Grotesk";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px; /* 90.909% */
+  text-transform: uppercase;
+}
+
+.contactUsDivider {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 16px;
+}
+
+.contactUsDescription {
+  margin-bottom: 16px;
+  width: 216px;
+  color: #fff;
+
+  text-align: center;
+  font-family: "Messina Sans Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; /* 118.75% */
+  text-transform: uppercase;
+}

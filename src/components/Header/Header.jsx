@@ -10,7 +10,7 @@ import svgDiscord from "../../images/svg/discord_black.svg";
 
 const Header = () => {
   return (
-    <header classList={css.headerPos}>
+    <header className={css.headerPos}>
       <div>
         <a href="../../../public/index.html">
           <picture>

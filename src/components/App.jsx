@@ -4,6 +4,8 @@ import Hero from "./Hero/Hero";
 import Header from "./Header/Header";
 import About from "./About/About";
 import MindMap from "./MindMap/MindMap";
+import ContactUs from "./ContactUs/ContuctUs";
+import Footer from "./Footer/Footer";
 
 function GlobalWrapper() {
   return (
@@ -14,6 +16,8 @@ function GlobalWrapper() {
       </div>
       <About />
       <MindMap />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }
