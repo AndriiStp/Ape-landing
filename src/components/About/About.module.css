@@ -60,34 +60,16 @@
 }
 
 .marqueeBlock {
-  padding: 6px 0;
+  display: flex;
 
-  max-width: 100%;
-  overflow: hidden;
+  width: 100%;
   height: 52px;
   background: #dc3b5a;
   color: #fff;
   text-align: center;
   align-items: center;
-  margin-top: 8px;
-  margin-bottom: 8px;
 }
 
-@keyframes marquee-infinite {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.marqueeContent {
-  display: flex;
-
-  flex-direction: row;
-  animation: marquee-infinite 10s linear infinite;
-}
 .marqueeText {
   display: flex;
   flex-shrink: 0;
@@ -103,5 +85,13 @@
 .marqueeCross {
   width: 36px;
   height: 36px;
+  /* margin-right: 24px; */
+}
+
+.marqueeWapper {
+  display: flex;
+  gap: 24px;
+}
+.marqueeWapper:last-child {
   margin-right: 24px;
 }

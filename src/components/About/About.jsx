@@ -1,6 +1,7 @@
 import css from "./About.module.css";
 import crossDivide from "../../images/svg/add-sharp.svg";
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 import aboutApeMobile1x from "../../images/mobile/AboutApe-mob1x-min.png";
 import aboutApeMobile2x from "../../images/mobile/AboutApe-mob2x-min.png";
@@ -59,20 +60,30 @@ const About = () => {
       </picture>
 
       <div className={css.marqueeBlock}>
-        <div className={css.marqueeContent}>
-          <div className={css.marqueeText}>
-            <div>HAVE NO LIMITS</div>
-            <img className={css.marqueeCross} src={crossDivide} alt="cross" />
+        <Marquee>
+          <div className={css.marqueeWapper}>
+            <div className={css.marqueeContent}>
+              <div className={css.marqueeText}>
+                <div>HAVE NO LIMITS</div>
+                <img
+                  className={css.marqueeCross}
+                  src={crossDivide}
+                  alt="cross"
+                />
+              </div>
+            </div>
+            <div className={css.marqueeContent}>
+              <div className={css.marqueeText}>
+                <div>HAVE NO LIMITS</div>
+                <img
+                  className={css.marqueeCross}
+                  src={crossDivide}
+                  alt="cross"
+                />
+              </div>
+            </div>
           </div>
-          <div className={css.marqueeText}>
-            <div>HAVE NO LIMITS</div>
-            <img className={css.marqueeCross} src={crossDivide} alt="cross" />
-          </div>
-          <div className={css.marqueeText}>
-            <div>HAVE NO LIMITS</div>
-            <img className={css.marqueeCross} src={crossDivide} alt="cross" />
-          </div>
-        </div>
+        </Marquee>
       </div>
     </section>
   );
