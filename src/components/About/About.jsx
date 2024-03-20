@@ -58,29 +58,12 @@ const About = () => {
           loading="lazy"
         />
       </picture>
-
       <div className={css.marqueeBlock}>
-        <Marquee>
-          <div className={css.marqueeWapper}>
-            <div className={css.marqueeContent}>
-              <div className={css.marqueeText}>
-                <div>HAVE NO LIMITS</div>
-                <img
-                  className={css.marqueeCross}
-                  src={crossDivide}
-                  alt="cross"
-                />
-              </div>
-            </div>
-            <div className={css.marqueeContent}>
-              <div className={css.marqueeText}>
-                <div>HAVE NO LIMITS</div>
-                <img
-                  className={css.marqueeCross}
-                  src={crossDivide}
-                  alt="cross"
-                />
-              </div>
+        <Marquee autoFill="true">
+          <div className={css.marqueeContent}>
+            <div className={css.marqueeText}>
+              <div>HAVE NO LIMITS</div>
+              <img className={css.marqueeCross} src={crossDivide} alt="cross" />
             </div>
           </div>
         </Marquee>

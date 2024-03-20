@@ -69,6 +69,9 @@
   text-align: center;
   align-items: center;
 }
+.marqueeContent {
+  margin-right: 24px;
+}
 
 .marqueeText {
   display: flex;
@@ -85,13 +88,4 @@
 .marqueeCross {
   width: 36px;
   height: 36px;
-  /* margin-right: 24px; */
-}
-
-.marqueeWapper {
-  display: flex;
-  gap: 24px;
-}
-.marqueeWapper:last-child {
-  margin-right: 24px;
 }
