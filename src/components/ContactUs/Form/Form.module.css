@@ -5,14 +5,35 @@
 }
 
 .contactField {
-  width: 333px;
-  height: 64px;
+  width: 216px;
+  height: 48px;
   padding: 22px 24px;
   align-items: center;
   text-transform: uppercase;
   background: transparent;
-  border-radius: 0px 12px 12px 0px;
+  border-radius: 0px 8px 8px 0px;
   border: 1px solid #1e1e1e;
+  color: #fff;
+}
+/* .contactField::after {
+  width: 48px;
+  height: 48px;
+
+  background-color: orange;
+
+  backdrop-filter: blur(6px);
+} */
+
+.contactError {
+  color: #dc3b5a;
+
+  text-align: right;
+  font-family: "Messina Sans Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  text-transform: uppercase;
 }
 
 .contactSubmit {
@@ -36,4 +57,18 @@
   &:hover {
     color: #1e1e1e;
   }
+}
+
+.inputWapper {
+  display: flex;
+}
+
+.inputBefore {
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 8px 0px 0px 8px;
+  background: #1e1e1e;
+
+  backdrop-filter: blur(6px);
 }
