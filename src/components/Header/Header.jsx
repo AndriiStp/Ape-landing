@@ -1,29 +1,18 @@
-import React from "react";
-import css from "./Header.module.css";
+import React from 'react';
+import css from './Header.module.css';
 
-import logoHeadermobile1x from "../../images/mobile/logoHeader-mob1x.png";
-import logoHeadermobile2x from "../../images/mobile/logoHeader-mob2x..png";
+import logoHeadermobilex from '../../images/svg/Frame.svg';
 
-import svgTwitter from "../../images/svg/logoTwitter.svg";
-import svgShip from "../../images/svg/ship.svg";
-import svgDiscord from "../../images/svg/discord_black.svg";
+import svgTwitter from '../../images/svg/logoTwitter.svg';
+import svgShip from '../../images/svg/ship.svg';
+import svgDiscord from '../../images/svg/discord_black.svg';
 
 const Header = () => {
   return (
     <header className={css.headerPos}>
-      <div>
+      <div className={css.logo}>
         <a href="../../../public/index.html">
-          <picture>
-            <source
-              srcSet={`${logoHeadermobile1x} 1x, ${logoHeadermobile2x} 2x`}
-              media="(max-width: 480px)"
-            ></source>
-            <img
-              src={logoHeadermobile1x}
-              alt="Made by Apes logo"
-              className={css.logo}
-            />
-          </picture>
+          <img src={logoHeadermobilex} alt="Made by Apes logo" />
         </a>
       </div>
       <div className={css.socialMenu}>
@@ -37,7 +26,7 @@ const Header = () => {
             </a>
           </li>
           <li className={css.navButton}>
-            <a href="https://www.pinterest.com/">
+            <a href="https://www.opensea.io/">
               <img src={svgShip} alt="Ship" className={css.svgSocial} />
             </a>
           </li>

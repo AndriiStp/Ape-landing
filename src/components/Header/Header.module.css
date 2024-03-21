@@ -1,16 +1,30 @@
-.logo {
-  /* margin-top: 16px; */
-  margin-left: 8px;
+.headerPos {
+  position: absolute;
+  z-index: 99;
+  margin: 0;
+  padding: 0;
 }
-
 .socialMenu {
   position: fixed;
   top: 62px;
   right: 16px;
+
+  @media screen and (min-width: 768px) {
+    top: 66px;
+    right: 28px;
+  }
 }
 .logo {
+  margin-left: 8px;
+  padding-top: 16px;
+
   width: 48px;
   height: 32px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 12px;
+    padding-top: 20px;
+  }
 }
 
 .svgSocial {
@@ -34,7 +48,7 @@
   border: none;
   background-color: transparent;
 
-  font-family: "Messina Sans Mono";
+  font-family: 'Messina Sans Mono';
   font-size: 12px;
   font-style: normal;
   font-weight: 600;

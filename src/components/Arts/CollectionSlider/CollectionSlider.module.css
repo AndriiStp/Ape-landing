@@ -5,6 +5,7 @@
 .slideItem {
   width: 216px;
   height: 256px;
+  margin-bottom: 24px;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -16,8 +17,6 @@
 }
 .sliderPrev,
 .sliderNext {
-  background-color: transparent;
-  border: none;
   color: #fff;
   cursor: pointer;
 

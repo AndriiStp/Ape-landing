@@ -1,16 +1,16 @@
-import css from "./App.module.css";
+import css from './App.module.css';
 
-import Hero from "./Hero/Hero";
-import Header from "./Header/Header";
-import About from "./About/About";
-import MindMap from "./MindMap/MindMap";
-import Arts from "./Arts/Arts";
-import ContactUs from "./ContactUs/ContuctUs";
-import Footer from "./Footer/Footer";
+import Hero from './Hero/Hero';
+import Header from './Header/Header';
+import About from './About/About';
+import MindMap from './MindMap/MindMap';
+import Arts from './Arts/Arts';
+import ContactUs from './ContactUs/ContuctUs';
+import Footer from './Footer/Footer';
 
 function GlobalWrapper() {
   return (
-    <div className={css.app}>
+    <>
       <div className={css.container}>
         <Header />
         <Hero />
@@ -20,7 +20,7 @@ function GlobalWrapper() {
       <Arts />
       <ContactUs />
       <Footer />
-    </div>
+    </>
   );
 }
 function App() {

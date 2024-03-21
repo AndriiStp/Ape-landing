@@ -1,5 +1,6 @@
-/* .footer {
-} */
+.footer {
+  padding-top: 60px;
+}
 
 .footerText {
   width: 216px;
@@ -7,7 +8,7 @@
   text-align: center;
   margin: 0 auto;
 
-  font-family: "Messina Sans Mono";
+  font-family: 'Messina Sans Mono';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;

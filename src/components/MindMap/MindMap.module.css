@@ -8,13 +8,18 @@
   margin-bottom: 24px;
   color: #fff;
 
-  font-family: "Right Grotesk";
+  font-family: 'Right Grotesk';
   font-size: 80px;
   font-style: normal;
   font-weight: 900;
   line-height: 80px; /* 100% */
   text-transform: uppercase;
 }
+
+.mindSwiper {
+  width: 216px;
+}
+
 .mindCard {
   display: flex;
   flex-direction: column;
@@ -29,7 +34,7 @@
 .mindDescription {
   color: #fff;
 
-  font-family: "Messina Sans Mono";
+  font-family: 'Messina Sans Mono';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -39,10 +44,43 @@
 .mindCardTitle {
   color: #fff;
 
-  font-family: "Right Grotesk";
+  font-family: 'Right Grotesk';
   font-size: 32px;
   font-style: normal;
   font-weight: 900;
   line-height: 32px; /* 100% */
   text-transform: uppercase;
+}
+
+.mindCardRed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 216px;
+  height: 242px;
+  padding: 24px 12px;
+  border-radius: 12px;
+  background: #dc3b5a;
+}
+.mindCardArrow {
+  width: 24px;
+  height: 24px;
+}
+
+.sliderNavigation {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.sliderPrev,
+.sliderNext {
+  color: #fff;
+  cursor: pointer;
+
+  font-family: 'Biro Script Plus';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
 }
