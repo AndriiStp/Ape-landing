@@ -17,8 +17,8 @@ const MindMap = () => {
         slidesPerView={1}
         spaceBetween={50}
         navigation={{
-          nextEl: '.sliderNext',
-          prevEl: '.sliderPrev',
+          nextEl: '.nextCard',
+          prevEl: '.prevCard',
         }}
       >
         <SwiperSlide>
@@ -59,8 +59,12 @@ const MindMap = () => {
           </article>
         </SwiperSlide>
         <div className={css.sliderNavigation}>
-          <div className={css.sliderPrev}>Prev</div>
-          <div className={css.sliderNext}>Next</div>
+          <div className="prevCard">
+            <span className={css.sliderPrev}>Prev</span>
+          </div>
+          <div className="nextCard">
+            <span className={css.sliderNext}>Next</span>
+          </div>
         </div>
       </Swiper>
     </section>

@@ -14,16 +14,17 @@
   border-radius: 0px 8px 8px 0px;
   border: 1px solid #1e1e1e;
   color: #fff;
+  z-index: 99;
+  @media screen and (min-width: 768px) {
+    width: 200px;
+  }
 }
 
-.contactField:invalid {
-  border-color: #dc3b5a;
-}
 .contactError {
   color: #dc3b5a;
 
   text-align: right;
-  font-family: "Messina Sans Mono";
+  font-family: 'Messina Sans Mono';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -42,7 +43,7 @@
 
   color: #fff;
 
-  font-family: "Right Grotesk";
+  font-family: 'Right Grotesk';
   font-size: 16px;
   font-style: normal;
   font-weight: 900;
@@ -51,6 +52,10 @@
 
   &:hover {
     color: #1e1e1e;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 247px;
   }
 }
 

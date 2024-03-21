@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './Hero.module.css';
+import { animateScroll as scroll } from 'react-scroll';
 
 import apeImageMobile1x from '../../images/mobile/HeroApe-mob1x-min.png';
 import apeImageMobile2x from '../../images/mobile/HeroApe-mob2x-min.png';
@@ -9,6 +10,13 @@ import apeImageDesk1x from '../../images/desktop/HeroApe-desk1x-min.png';
 import apeImageDesk2x from '../../images/desktop/HeroApe-desk2x-min.png';
 
 const Hero = () => {
+  const scrollToMint = () => {
+    scroll.scrollTo('mintSection', {
+      duration: 1500,
+      smooth: 'easeInOutQuart',
+    });
+  };
+
   return (
     <section className={css.heroSection}>
       <div className={css.heroContactWrapper}>
@@ -22,19 +30,27 @@ const Hero = () => {
           <source
             srcSet={`${apeImageDesk1x} 1x, ${apeImageDesk2x} 2x`}
             media="(min-width: 1280px)"
+            sizes="min-width: 511px"
           />
           <source
             srcSet={`${apeImageTablet1x} 1x, ${apeImageTablet2x} 2x`}
             media="(min-width: 768px)"
+            sizes="min-width: 283px"
           />
           <source
             srcSet={`${apeImageMobile1x} 1x, ${apeImageMobile2x} 2x`}
             media="(max-width: 480px)"
+            sizes="max-width: 216px"
           />
           <img src={apeImageMobile1x} alt="Ape" loading="lazy" />
         </picture>
         <div className={css.tabletPosition}>
-          <button className={css.buttonMeet} type="button">
+          <button
+            className={css.buttonMeet}
+            type="button"
+            onClick={scrollToMint}
+            aria-label="Scroll to Mint"
+          >
             Meet Apes
           </button>
           <p className={css.heroDescr}>
