@@ -1,5 +1,6 @@
 .heroSection {
   height: 100%;
+  max-width: 736px;
   padding-top: 36px;
   position: relative;
   display: flex;
@@ -8,6 +9,7 @@
 
   @media screen and (min-width: 768px) {
     display: block;
+    align-items: baseline;
     border-radius: 16px;
     padding-left: 73px;
     padding-right: 72px;
@@ -21,7 +23,7 @@
 }
 
 .heroPreTitle {
-  text-align: center;
+  /* text-align: center; */
   color: #1e1e1e;
 
   font-family: 'Biro Script Plus Bold US';
