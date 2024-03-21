@@ -1,0 +1,17 @@
+.artsSection {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artsTitle {
+  margin-bottom: 24px;
+  color: #fff;
+  font-family: "Right Grotesk";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px; /* 90.909% */
+  text-transform: uppercase;
+}

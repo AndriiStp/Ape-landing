@@ -4,6 +4,7 @@ import Hero from "./Hero/Hero";
 import Header from "./Header/Header";
 import About from "./About/About";
 import MindMap from "./MindMap/MindMap";
+import Arts from "./Arts/Arts";
 import ContactUs from "./ContactUs/ContuctUs";
 import Footer from "./Footer/Footer";
 
@@ -16,6 +17,7 @@ function GlobalWrapper() {
       </div>
       <About />
       <MindMap />
+      <Arts />
       <ContactUs />
       <Footer />
     </div>

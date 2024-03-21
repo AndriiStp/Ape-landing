@@ -37,52 +37,54 @@ const ContactForm = () => {
         validationSchema={userSchema}
         initialValues={initialValues}
       >
-        <Form autoComplete="off" className={css.contactForm}>
-          <div className={css.inputWapper}>
-            <div className={css.inputBefore}>
-              <img
-                src={svgDiscord}
-                alt=""
-                style={{ width: "24px", height: "24px" }}
-              />
+        {({ errors, touched }) => (
+          <Form autoComplete="off" className={css.contactForm}>
+            <div className={css.inputWapper}>
+              <div className={css.inputBefore}>
+                <img
+                  src={svgDiscord}
+                  alt=""
+                  style={{ width: "24px", height: "24px" }}
+                />
+              </div>
+              <Field
+                placeholder="@username"
+                className={css.contactField}
+                type="text"
+                name="discord"
+              ></Field>
             </div>
-            <Field
-              placeholder="@username"
-              className={css.contactField}
-              type="text"
+            <ErrorMessage
+              className={css.contactError}
               name="discord"
-            ></Field>
-          </div>
-          <ErrorMessage
-            className={css.contactError}
-            name="discord"
-            component="div"
-          />
-          <div className={css.inputWapper}>
-            <div className={css.inputBefore}>
-              <img
-                style={{ width: "24px", height: "24px" }}
-                src={svgMetamask}
-                alt=""
-              />
+              component="div"
+            />
+            <div className={css.inputWapper}>
+              <div className={css.inputBefore}>
+                <img
+                  style={{ width: "24px", height: "24px" }}
+                  src={svgMetamask}
+                  alt=""
+                />
+              </div>
+              <Field
+                placeholder="Wallet address"
+                className={css.contactField}
+                type="text"
+                name="metamask"
+              ></Field>
             </div>
-            <Field
-              placeholder="Wallet address"
-              className={css.contactField}
-              type="text"
+            <ErrorMessage
+              className={css.contactError}
               name="metamask"
-            ></Field>
-          </div>
-          <ErrorMessage
-            className={css.contactError}
-            name="metamask"
-            component="div"
-          />
+              component="div"
+            />
 
-          <button className={css.contactSubmit} type="submit">
-            Mint
-          </button>
-        </Form>
+            <button className={css.contactSubmit} type="submit">
+              Mint
+            </button>
+          </Form>
+        )}
       </Formik>
     </>
   );
