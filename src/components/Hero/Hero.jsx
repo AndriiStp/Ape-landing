@@ -19,7 +19,6 @@ const Hero = () => {
           srcSet={`${apeImageDesk1x} 1x, ${apeImageDesk2x} 2x`}
           media="(min-width: 1280px)"
         />
-
         <source
           srcSet={`${apeImageTablet1x} 1x, ${apeImageTablet2x} 2x`}
           media="(min-width: 768px)"
