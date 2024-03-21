@@ -49,8 +49,8 @@ const CollectionSlider = () => {
         spaceBetween={50}
         slidesPerView={1}
         navigation={{
-          nextEl: '.sliderNext',
-          prevEl: '.sliderPrev',
+          nextEl: '.next',
+          prevEl: '.prev',
         }}
       >
         {apeItems.map((item, index) => (
@@ -72,11 +72,15 @@ const CollectionSlider = () => {
             </picture>
           </SwiperSlide>
         ))}
+        <div className={css.sliderNavigation}>
+          <div className="prev">
+            <span className={css.sliderPrev}>Prev</span>
+          </div>
+          <div className={css.sliderNext}>
+            <span>Next</span>
+          </div>
+        </div>
       </Swiper>
-      <div className={css.sliderNavigation}>
-        <div className={css.sliderPrev}>Prev</div>
-        <div className={css.sliderNext}>Next</div>
-      </div>
     </>
   );
 };
