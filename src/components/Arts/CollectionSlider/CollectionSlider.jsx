@@ -76,8 +76,8 @@ const CollectionSlider = () => {
           <div className="prev">
             <span className={css.sliderPrev}>Prev</span>
           </div>
-          <div className={css.sliderNext}>
-            <span>Next</span>
+          <div className="next">
+            <span className={css.sliderNext}>Next</span>
           </div>
         </div>
       </Swiper>
