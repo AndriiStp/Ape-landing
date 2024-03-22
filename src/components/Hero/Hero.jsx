@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './Hero.module.css';
-import { animateScroll as scroll } from 'react-scroll';
+import { scroller } from 'react-scroll';
 
 import apeImageMobile1x from '../../images/mobile/HeroApe-mob1x-min.png';
 import apeImageMobile2x from '../../images/mobile/HeroApe-mob2x-min.png';
@@ -11,9 +11,9 @@ import apeImageDesk2x from '../../images/desktop/HeroApe-desk2x-min.png';
 
 const Hero = () => {
   const scrollToMint = () => {
-    scroll.scrollTo('mintSection', {
+    scroller.scrollTo('mint', {
       duration: 1500,
-      smooth: 'easeInOutQuart',
+      smooth: 'linear',
     });
   };
 
