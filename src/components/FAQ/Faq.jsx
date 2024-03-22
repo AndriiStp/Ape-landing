@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import css from './Faq.module.css';
 
 const Faq = () => {

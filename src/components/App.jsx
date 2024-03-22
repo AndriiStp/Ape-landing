@@ -8,6 +8,7 @@ import Faq from './FAQ/Faq';
 import Arts from './Arts/Arts';
 import ContactUs from './ContactUs/ContuctUs';
 import Footer from './Footer/Footer';
+import apes from '../images/apeCollection/apeCollection.json';
 
 function GlobalWrapper() {
   return (
@@ -19,7 +20,7 @@ function GlobalWrapper() {
       <About />
       <MindMap />
       <Faq />
-      <Arts />
+      <Arts apes={apes} />
       <ContactUs />
       <Footer />
     </>

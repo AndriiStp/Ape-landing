@@ -1,5 +1,9 @@
 .swiperController {
   width: 216px;
+
+  @media screen and (min-width: 768px) {
+    width: 592px;
+  }
 }
 
 .slideItem {
@@ -8,6 +12,11 @@
   margin-bottom: 24px;
   border-radius: 12px;
   overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    width: 284px;
+    height: 336px;
+  }
 }
 
 .sliderNavigation {
