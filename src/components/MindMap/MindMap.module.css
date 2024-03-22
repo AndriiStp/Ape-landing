@@ -9,10 +9,10 @@
   color: #fff;
 
   font-family: 'Right Grotesk';
-  font-size: 80px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 900;
-  line-height: 80px; /* 100% */
+  line-height: 40px; /* 90.909% */
   text-transform: uppercase;
 }
 
@@ -41,6 +41,7 @@
   line-height: 14px; /* 116.667% */
   text-transform: uppercase;
 }
+
 .mindCardTitle {
   color: #fff;
 
@@ -63,7 +64,9 @@
   border-radius: 12px;
   background: #dc3b5a;
 }
+
 .mindCardArrow {
+  margin-left: auto;
   width: 24px;
   height: 24px;
 }

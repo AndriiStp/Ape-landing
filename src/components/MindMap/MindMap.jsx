@@ -1,9 +1,9 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
-import css from './MindMap.module.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import css from './MindMap.module.css';
 
 import svgArrov from '../../images/svg/Vector.svg';
 
@@ -49,14 +49,17 @@ const MindMap = () => {
           </article>
         </SwiperSlide>
         <SwiperSlide>
-          <article className={css.mindCardRed}>
+          <a
+            href="https://drive.google.com/file/d/1FmPfC2Wk3vR0zIrSeupIbHSN34soUIjd/view?usp=sharing"
+            className={css.mindCardRed}
+          >
             <img className={css.mindCardArrow} src={svgArrov} alt="" />
             <h2 className={css.mindCardTitle}>
               Learn
               <br /> more
               <br /> in mind map
             </h2>
-          </article>
+          </a>
         </SwiperSlide>
         <div className={css.sliderNavigation}>
           <div className="prevCard">
