@@ -1,6 +1,6 @@
 .heroSection {
   height: 100%;
-  max-width: 736px;
+  width: 100%;
   padding-top: 36px;
   position: relative;
   display: flex;
@@ -8,6 +8,7 @@
   align-items: center;
 
   @media screen and (min-width: 768px) {
+    width: 736px;
     display: block;
     align-items: baseline;
     border-radius: 16px;

@@ -9,9 +9,15 @@
 
 .aboutContainer {
   @media screen and (min-width: 768px) {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 768px;
     position: relative;
     display: block;
     padding: 80px 88px 0 88px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
   }
 }
 
@@ -54,7 +60,12 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 60px;
-    line-height: 60px; /* 100% */
+    line-height: 60px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 538px;
+    font-size: 120px;
+    line-height: 120px;
   }
 }
 
@@ -78,26 +89,50 @@
     margin-bottom: 0;
     width: 275px;
   }
+  @media screen and (min-width: 1280px) {
+    width: 409px;
+    font-size: 24px;
+    line-height: 29px;
+  }
 }
 
 .crossDivider {
   width: 24px;
   height: 24px;
   margin-bottom: 16px;
+  @media screen and (min-width: 1280px) {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 36px;
+  }
 }
 
 .aboutText {
   margin-bottom: 40px;
   width: 216px;
   color: #fff;
-
   text-align: center;
+
   font-family: 'Messina Sans Mono';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 14px; /* 116.667% */
   text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 36px;
+    width: 269px;
+    font-size: 16px;
+    line-height: 19px;
+
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 40px;
+      width: 417px;
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
 }
 
 .aboutApeImage {
@@ -108,7 +143,14 @@
     right: 88px;
     bottom: 0;
   }
+  @media screen and (min-width: 1280px) {
+    width: 492px;
+    right: 204px;
+    bottom: 0;
+  }
 }
+
+/* MARQUUEE BLock */
 
 .marqueeBlock {
   display: flex;
@@ -120,11 +162,15 @@
   color: #fff;
 
   @media screen and (min-width: 1280px) {
+    width: 100%;
     height: 86px;
   }
 }
 .marqueeContent {
   margin-right: 24px;
+  @media screen and (min-width: 1280px) {
+    margin-right: 36px;
+  }
 }
 
 .marqueeText {
@@ -141,6 +187,7 @@
   @media screen and (min-width: 1280px) {
     font-size: 64px;
     line-height: 64px;
+    gap: 36px;
   }
 }
 
