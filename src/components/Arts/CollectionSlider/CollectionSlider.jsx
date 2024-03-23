@@ -10,7 +10,7 @@ const CollectionSlider = ({ apes }) => {
   const swiperParams = {
     modules: [Navigation],
     slidesPerView: 1,
-    spaceBetween: 50,
+    spaceBetween: 25,
     navigation: { nextEl: '.next', prevEl: '.prev' },
     breakpoints: {
       768: {
