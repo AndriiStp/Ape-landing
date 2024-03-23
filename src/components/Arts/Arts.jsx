@@ -1,10 +1,10 @@
 import CollectionSlider from './CollectionSlider/CollectionSlider';
 import css from './Arts.module.css';
-const Arts = ({ apes }) => {
+const Arts = () => {
   return (
     <section className={css.artsSection}>
       <h1 className={css.artsTitle}>COLLECTION</h1>
-      <CollectionSlider apes={apes} />
+      <CollectionSlider />
     </section>
   );
 };
