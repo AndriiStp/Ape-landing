@@ -3,6 +3,11 @@
 
   @media screen and (min-width: 768px) {
     width: 592px;
+    /* height: 336px; */
+  }
+  @media screen and (min-width: 1028px) {
+    width: 1032px;
+    /* height: 280px; */
   }
 }
 
@@ -16,6 +21,10 @@
   @media screen and (min-width: 768px) {
     width: 284px;
     height: 336px;
+  }
+  @media screen and (min-width: 1028px) {
+    width: 240px;
+    height: 280px;
   }
 }
 
@@ -40,5 +49,9 @@
   @media screen and (min-width: 768px) {
     width: 284px;
     height: 336px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 240px;
+    height: 280px;
   }
 }

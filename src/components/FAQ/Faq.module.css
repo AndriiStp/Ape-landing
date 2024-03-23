@@ -3,6 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (min-width: 768px) {
+    padding-top: 80px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+  }
 }
 
 .faqTitle {
@@ -19,17 +25,24 @@
     font-size: 80px;
     line-height: 80px; /* 100% */
   }
-}
-.faqList {
-  gap: 16px;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 80px;
+    font-size: 160px;
+    line-height: 160px;
+  }
 }
 
 .faqItem {
   width: 216px;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
 }
+
 .faqItem:not(:last-child) {
   margin-bottom: 16px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 36px;
   }
 }
@@ -41,7 +54,12 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 166.667% */
+  line-height: 20px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 36px;
+    font-size: 24px;
+    line-height: 40px;
+  }
 }
 
 .cardTitle {
@@ -52,12 +70,17 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 900;
-  line-height: 20px; /* 100% */
+  line-height: 20px;
   text-transform: uppercase;
   @media screen and (min-width: 768px) {
     width: 355px;
     font-size: 32px;
-    line-height: 32px; /* 100% */
+    line-height: 32px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 635px;
+    font-size: 64px;
+    line-height: 64px;
   }
 }
 
@@ -70,6 +93,10 @@
   font-weight: 400;
   line-height: 14px; /* 116.667% */
   text-transform: uppercase;
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 19px;
+  }
 }
 
 .faqItem h2 {
@@ -98,6 +125,11 @@
   @media screen and (min-width: 768px) {
     width: 592px;
     height: 159px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1032px;
+    height: 250px;
   }
 }
 
