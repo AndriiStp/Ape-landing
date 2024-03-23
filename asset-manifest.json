@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ape-landing/static/css/main.c0e7eb8c.css",
-    "main.js": "/Ape-landing/static/js/main.00d501e1.js",
+    "main.css": "/Ape-landing/static/css/main.5b274386.css",
+    "main.js": "/Ape-landing/static/js/main.26258c83.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/Ape-landing/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/Ape-landing/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
     "static/media/BiroScriptPlus-Sloppy.eot": "/Ape-landing/static/media/BiroScriptPlus-Sloppy.857bca03a4cce14fd651.eot",
@@ -109,11 +109,11 @@
     "static/media/logoTwitter.svg": "/Ape-landing/static/media/logoTwitter.1598e347893c62e9ec0ca840b13da98a.svg",
     "static/media/add-sharp.svg": "/Ape-landing/static/media/add-sharp.b0b41e22f2ce59bcad4172ba8c19bc07.svg",
     "static/media/Vector.svg": "/Ape-landing/static/media/Vector.737a3f1d9ac4e3cc9019b0e876f19598.svg",
-    "main.c0e7eb8c.css.map": "/Ape-landing/static/css/main.c0e7eb8c.css.map",
-    "main.00d501e1.js.map": "/Ape-landing/static/js/main.00d501e1.js.map"
+    "main.5b274386.css.map": "/Ape-landing/static/css/main.5b274386.css.map",
+    "main.26258c83.js.map": "/Ape-landing/static/js/main.26258c83.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0e7eb8c.css",
-    "static/js/main.00d501e1.js"
+    "static/css/main.5b274386.css",
+    "static/js/main.26258c83.js"
   ]
 }
