@@ -10,7 +10,6 @@
 .aboutContainer {
   @media screen and (min-width: 768px) {
     margin: 0 auto;
-    overflow: hidden;
     width: 768px;
     position: relative;
     display: block;
@@ -26,9 +25,9 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
   }
 }
+
 .aboutBigPosition {
   @media screen and (min-width: 768px) {
     display: flex;
@@ -36,7 +35,7 @@
     justify-content: space-between;
     margin-bottom: 68px;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 56px;
   }
 }
@@ -107,6 +106,7 @@
   width: 24px;
   height: 24px;
   margin-bottom: 16px;
+
   @media screen and (min-width: 1280px) {
     width: 36px;
     height: 36px;
@@ -153,7 +153,6 @@
   @media screen and (min-width: 1280px) {
     width: 492px;
     right: 204px;
-    bottom: 0;
   }
 }
 
