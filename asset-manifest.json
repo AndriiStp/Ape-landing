@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ape-landing/static/css/main.c4f0c6e3.css",
-    "main.js": "/Ape-landing/static/js/main.bbbdc00f.js",
+    "main.css": "/Ape-landing/static/css/main.875246b2.css",
+    "main.js": "/Ape-landing/static/js/main.09fe533d.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/Ape-landing/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/Ape-landing/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
     "static/media/BiroScriptPlus-Sloppy.eot": "/Ape-landing/static/media/BiroScriptPlus-Sloppy.857bca03a4cce14fd651.eot",
@@ -16,6 +16,7 @@
     "static/media/BiroScriptPlus-Bold.ttf": "/Ape-landing/static/media/BiroScriptPlus-Bold.d59732f3d22e3d024577.ttf",
     "static/media/BiroScriptUSPlus-Sloppy.woff": "/Ape-landing/static/media/BiroScriptUSPlus-Sloppy.ca004f1481df9e606ef6.woff",
     "static/media/BiroScriptPlus-Sloppy.woff": "/Ape-landing/static/media/BiroScriptPlus-Sloppy.4bb62738a943dc966f41.woff",
+    "static/media/AboutApe-desk2x-min.png": "/Ape-landing/static/media/AboutApe-desk2x-min.90223dfc01348a9ca273.png",
     "static/media/HeroApe-desk2x-min.png": "/Ape-landing/static/media/HeroApe-desk2x-min.37f764aee108913c9ee6.png",
     "static/media/BiroScriptUSPlus-Regular.woff": "/Ape-landing/static/media/BiroScriptUSPlus-Regular.4483a20e730fc372f0c6.woff",
     "static/media/BiroScriptPlus.woff": "/Ape-landing/static/media/BiroScriptPlus.c36dfe5a3e10748f701a.woff",
@@ -32,6 +33,7 @@
     "static/media/BiroScriptPlus-Bold.woff2": "/Ape-landing/static/media/BiroScriptPlus-Bold.ee2ea28fe92df0289248.woff2",
     "static/media/Ape4big2x-min.jpg": "/Ape-landing/static/media/Ape4big2x-min.b492ecda5bfc6c604e04.jpg",
     "static/media/Ape3big2x-min.jpg": "/Ape-landing/static/media/Ape3big2x-min.4777ef0f0d750cd2b693.jpg",
+    "static/media/AboutApe-tablet2x-min.png": "/Ape-landing/static/media/AboutApe-tablet2x-min.2c526baba60dfab76b52.png",
     "static/media/HeroApe-tab2x-min.png": "/Ape-landing/static/media/HeroApe-tab2x-min.f516e43edb2323858dbc.png",
     "static/media/Ape6big2x-min.jpg": "/Ape-landing/static/media/Ape6big2x-min.0f22b3d8a8879625bb4a.jpg",
     "static/media/Ape5big2x-min.jpg": "/Ape-landing/static/media/Ape5big2x-min.12934aab4cf9a90b6730.jpg",
@@ -39,9 +41,11 @@
     "static/media/HeroApe-desk1x-min.png": "/Ape-landing/static/media/HeroApe-desk1x-min.660ddec5cfe11089ce92.png",
     "static/media/Ape2big1x-min.jpg": "/Ape-landing/static/media/Ape2big1x-min.215e68e50d19b4011677.jpg",
     "static/media/Ape8big1x-min.jpg": "/Ape-landing/static/media/Ape8big1x-min.b55f679afa860bfd6f64.jpg",
+    "static/media/AboutApe-desk1x-min.png": "/Ape-landing/static/media/AboutApe-desk1x-min.5997b8c9b0736a7ebab1.png",
     "static/media/HeroApe-mob2x-min.png": "/Ape-landing/static/media/HeroApe-mob2x-min.db0c366d755b074eca03.png",
     "static/media/Ape1big1x-min.jpg": "/Ape-landing/static/media/Ape1big1x-min.812594cb4ebe2bab913a.jpg",
     "static/media/Ape3big1x-min.jpg": "/Ape-landing/static/media/Ape3big1x-min.319102d367f878b4ad46.jpg",
+    "static/media/AboutApe-mob2x-min.png": "/Ape-landing/static/media/AboutApe-mob2x-min.732ce5fc9ed920a018ae.png",
     "static/media/Ape4big1x-min.jpg": "/Ape-landing/static/media/Ape4big1x-min.f6b26c5fbde639133d2a.jpg",
     "static/media/Ape5big1x-min.jpg": "/Ape-landing/static/media/Ape5big1x-min.40ce45fce4ab3c1385eb.jpg",
     "static/media/Ape6big1x-min.jpg": "/Ape-landing/static/media/Ape6big1x-min.1b027e48ec692c6e6383.jpg",
@@ -54,6 +58,7 @@
     "static/media/Ape7big1x-min.jpg": "/Ape-landing/static/media/Ape7big1x-min.664ecc28c076016111fc.jpg",
     "static/media/HeroApe-tab1x-min.png": "/Ape-landing/static/media/HeroApe-tab1x-min.d9fde6d0341b9b3733b3.png",
     "static/media/Ape8mob2x-min.jpg": "/Ape-landing/static/media/Ape8mob2x-min.0d71ce6a176d636210bc.jpg",
+    "static/media/AboutApe-tablet1x-min.png": "/Ape-landing/static/media/AboutApe-tablet1x-min.869a8dd380c8eac1469a.png",
     "static/media/Ape2mob2x-min.jpg": "/Ape-landing/static/media/Ape2mob2x-min.b6b086b48909bb096c66.jpg",
     "static/media/MessinaSansMono-Light.eot": "/Ape-landing/static/media/MessinaSansMono-Light.e233c2a2bcda66e6577c.eot",
     "static/media/MessinaSansMono-Light.ttf": "/Ape-landing/static/media/MessinaSansMono-Light.a12cfcff416219672fa4.ttf",
@@ -74,6 +79,7 @@
     "static/media/Ape6mob2x-min.jpg": "/Ape-landing/static/media/Ape6mob2x-min.b469fa2de37d657b4b00.jpg",
     "static/media/Ape7mob2x-min.jpg": "/Ape-landing/static/media/Ape7mob2x-min.22e3ed5f2841fd50d6d5.jpg",
     "static/media/HeroApe-mob1x-min.png": "/Ape-landing/static/media/HeroApe-mob1x-min.153ada731f8a81dcafd6.png",
+    "static/media/AboutApe-mob1x-min.png": "/Ape-landing/static/media/AboutApe-mob1x-min.c43a2f8e6251397e9f94.png",
     "static/media/MessinaSansMono-Light.woff": "/Ape-landing/static/media/MessinaSansMono-Light.fcdd12b277767278c6f9.woff",
     "static/media/MessinaSansMono-Regular.woff": "/Ape-landing/static/media/MessinaSansMono-Regular.7e93f6fe11e530457b74.woff",
     "static/media/MessinaSansMono-SemiBold.woff": "/Ape-landing/static/media/MessinaSansMono-SemiBold.c0ee0f01ae315fe0d3c9.woff",
@@ -103,11 +109,11 @@
     "static/media/logoTwitter.svg": "/Ape-landing/static/media/logoTwitter.1598e347893c62e9ec0ca840b13da98a.svg",
     "static/media/add-sharp.svg": "/Ape-landing/static/media/add-sharp.b0b41e22f2ce59bcad4172ba8c19bc07.svg",
     "static/media/Vector.svg": "/Ape-landing/static/media/Vector.737a3f1d9ac4e3cc9019b0e876f19598.svg",
-    "main.c4f0c6e3.css.map": "/Ape-landing/static/css/main.c4f0c6e3.css.map",
-    "main.bbbdc00f.js.map": "/Ape-landing/static/js/main.bbbdc00f.js.map"
+    "main.875246b2.css.map": "/Ape-landing/static/css/main.875246b2.css.map",
+    "main.09fe533d.js.map": "/Ape-landing/static/js/main.09fe533d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4f0c6e3.css",
-    "static/js/main.bbbdc00f.js"
+    "static/css/main.875246b2.css",
+    "static/js/main.09fe533d.js"
   ]
 }
