@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ape-landing/static/css/main.ca5b3681.css",
+    "main.css": "/Ape-landing/static/css/main.894da2fc.css",
     "main.js": "/Ape-landing/static/js/main.6bbd730a.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/Ape-landing/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/Ape-landing/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
@@ -105,11 +105,11 @@
     "index.html": "/Ape-landing/index.html",
     "static/media/add-sharp.svg": "/Ape-landing/static/media/add-sharp.b0b41e22f2ce59bcad4172ba8c19bc07.svg",
     "static/media/Vector.svg": "/Ape-landing/static/media/Vector.737a3f1d9ac4e3cc9019b0e876f19598.svg",
-    "main.ca5b3681.css.map": "/Ape-landing/static/css/main.ca5b3681.css.map",
+    "main.894da2fc.css.map": "/Ape-landing/static/css/main.894da2fc.css.map",
     "main.6bbd730a.js.map": "/Ape-landing/static/js/main.6bbd730a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca5b3681.css",
+    "static/css/main.894da2fc.css",
     "static/js/main.6bbd730a.js"
   ]
 }
