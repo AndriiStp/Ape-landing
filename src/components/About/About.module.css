@@ -10,6 +10,7 @@
     position: relative;
     padding: 80px 88px 36px 88px;
   }
+
   @media screen and (min-width: 1280px) {
     width: 1280px;
     padding-top: 120px;
@@ -27,10 +28,12 @@
 .aboutFirstBigPosition {
   @media screen and (min-width: 768px) {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
+
     margin-bottom: 68px;
   }
+
   @media screen and (min-width: 1280px) {
     margin-bottom: 56px;
   }
@@ -40,7 +43,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    margin-right: auto;
+  }
 }
 
 .aboutTitle {
@@ -53,7 +59,7 @@
   font-size: 40px;
   font-style: normal;
   font-weight: 900;
-  line-height: 1;
+  line-height: 40px;
   text-transform: uppercase;
 
   @media screen and (min-width: 768px) {
