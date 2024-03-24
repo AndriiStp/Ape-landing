@@ -12,9 +12,7 @@
     height: 421px;
     display: block;
     border-radius: 16px;
-    padding-left: 73px;
-    padding-right: 72px;
-    padding-top: 124px;
+    padding: 124px 72px 0 73px;
   }
   @media screen and (min-width: 1280px) {
     width: 1200px;
