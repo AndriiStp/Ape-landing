@@ -17,7 +17,7 @@ const About = () => {
     <section className={css.aboutSection}>
       <div className={css.aboutContainer}>
         <div className={css.aboutBigPositionWrapper}>
-          <div className={css.aboutBigPosition}>
+          <div className={css.aboutFirstBigPosition}>
             {isMobile ? (
               <h1 className={css.aboutTitle}>
                 a Story that
