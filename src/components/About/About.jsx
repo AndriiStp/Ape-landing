@@ -1,7 +1,7 @@
 import css from './About.module.css';
 import crossDivide from '../../images/svg/add-sharp.svg';
 import React from 'react';
-import Marquee from 'react-fast-marquee';
+// import Marquee from 'react-fast-marquee';
 import { useMediaQuery } from 'react-responsive';
 import aboutApeMobile1x from '../../images/mobile/AboutApe-mob1x-min.png';
 import aboutApeMobile2x from '../../images/mobile/AboutApe-mob2x-min.png';
@@ -100,7 +100,7 @@ const About = () => {
           />
         </picture>
       </div>
-
+      {/* 
       <div className={css.marqueeBlock}>
         <Marquee autoFill="true">
           <div className={css.marqueeContent}>
@@ -114,7 +114,7 @@ const About = () => {
             </div>
           </div>
         </Marquee>
-      </div>
+      </div> */}
     </section>
   );
 };
