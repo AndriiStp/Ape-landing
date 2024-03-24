@@ -8,11 +8,12 @@
     margin: 0 auto;
     width: 768px;
     position: relative;
-    padding: 80px 88px 0 88px;
+    padding: 80px 88px 36px 88px;
   }
   @media screen and (min-width: 1280px) {
     width: 1280px;
     padding-top: 120px;
+    padding-bottom: 40px;
   }
 }
 
@@ -110,7 +111,6 @@
 }
 
 .aboutText {
-  margin-bottom: 40px;
   width: 216px;
   color: #fff;
   text-align: center;
@@ -123,14 +123,12 @@
   text-transform: uppercase;
 
   @media screen and (min-width: 768px) {
-    margin-bottom: 36px;
     width: 269px;
     font-size: 16px;
     line-height: 19px;
   }
 
   @media screen and (min-width: 1280px) {
-    margin-bottom: 40px;
     width: 417px;
     font-size: 24px;
     line-height: 29px;
