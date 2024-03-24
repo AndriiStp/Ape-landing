@@ -17,7 +17,7 @@
     padding: 80px 88px 0 88px;
   }
   @media screen and (min-width: 1280px) {
-    width: 1200px;
+    width: 1280px;
     padding-top: 120px;
   }
 }
@@ -26,7 +26,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 }
 .aboutBigPosition {
@@ -35,6 +35,9 @@
     flex-direction: raw;
     justify-content: space-between;
     margin-bottom: 68px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 56px;
   }
 }
 
