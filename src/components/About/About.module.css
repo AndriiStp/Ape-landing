@@ -1,17 +1,13 @@
-.aboutSection {
+.aboutContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media screen and (min-width: 768px) {
-  }
-}
 
-.aboutContainer {
   @media screen and (min-width: 768px) {
+    display: block;
     margin: 0 auto;
     width: 768px;
     position: relative;
-    display: block;
     padding: 80px 88px 0 88px;
   }
   @media screen and (min-width: 1280px) {
@@ -30,7 +26,7 @@
 .aboutBigPosition {
   @media screen and (min-width: 768px) {
     display: flex;
-    flex-direction: raw;
+    flex-direction: row;
     justify-content: space-between;
     margin-bottom: 68px;
   }
@@ -131,13 +127,13 @@
     width: 269px;
     font-size: 16px;
     line-height: 19px;
+  }
 
-    @media screen and (min-width: 1280px) {
-      margin-bottom: 40px;
-      width: 417px;
-      font-size: 24px;
-      line-height: 29px;
-    }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 40px;
+    width: 417px;
+    font-size: 24px;
+    line-height: 29px;
   }
 }
 
@@ -167,7 +163,6 @@
   color: #fff;
 
   @media screen and (min-width: 1280px) {
-    width: 100%;
     height: 86px;
   }
 }
@@ -186,7 +181,7 @@
   font-size: 36px;
   font-style: normal;
   font-weight: 900;
-  line-height: 1;
+  line-height: 36px;
   text-transform: uppercase;
 
   @media screen and (min-width: 1280px) {
