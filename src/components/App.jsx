@@ -16,7 +16,7 @@ function GlobalWrapper() {
         {/* <Header /> */}
         <Hero />
       </div>
-      <About />
+      {/* <About /> */}
       <MindMap />
       <Faq />
       <Arts />
