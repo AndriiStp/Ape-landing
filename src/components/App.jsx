@@ -2,7 +2,7 @@ import css from './App.module.css';
 
 import Hero from './Hero/Hero';
 // import Header from './Header/Header';
-// import About from './About/About';
+import About from './About/About';
 import MindMap from './MindMap/MindMap';
 import Faq from './FAQ/Faq';
 import Arts from './Arts/Arts';
@@ -16,7 +16,7 @@ function GlobalWrapper() {
         {/* <Header /> */}
         <Hero />
       </div>
-      {/* <About /> */}
+      <About />
       <MindMap />
       <Faq />
       <Arts />
