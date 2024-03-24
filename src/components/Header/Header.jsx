@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import { useState } from 'react';
 import css from './Header.module.css';
 
 import logoHeadermobilex from '../../images/svg/Frame.svg';
@@ -8,11 +8,11 @@ import svgShip from '../../images/svg/ship.svg';
 import svgDiscord from '../../images/svg/discord_black.svg';
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleToggleMenuOpen = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  // const handleToggleMenuOpen = () => {
+  //   setIsMenuOpen(!isMenuOpen);
+  // };
 
   return (
     <header className={css.headerPos}>
