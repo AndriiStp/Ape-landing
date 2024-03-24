@@ -1,7 +1,7 @@
 import css from './App.module.css';
 
 import Hero from './Hero/Hero';
-import Header from './Header/Header';
+// import Header from './Header/Header';
 import About from './About/About';
 import MindMap from './MindMap/MindMap';
 import Faq from './FAQ/Faq';
@@ -13,7 +13,7 @@ function GlobalWrapper() {
   return (
     <>
       <div className={css.container}>
-        <Header />
+        {/* <Header /> */}
         <Hero />
       </div>
       <About />
