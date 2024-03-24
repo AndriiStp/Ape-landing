@@ -125,6 +125,7 @@
 }
 
 .sliderNavigation {
+  margin-top: 24px;
   display: flex;
   justify-content: center;
   gap: 48px;

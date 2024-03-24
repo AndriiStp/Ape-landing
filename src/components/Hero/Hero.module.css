@@ -143,11 +143,11 @@
   height: 41px;
 
   color: #1e1e1e;
-  font-family: 'Right Grotesk Medium';
+  font-family: 'Right Grotesk';
   font-size: 16px;
   font-style: normal;
   font-weight: 900;
-  line-height: 19px; /* 118.75% */
+  line-height: 19px;
   text-transform: uppercase;
 
   border-radius: 8px;
@@ -165,9 +165,17 @@
     height: 41px;
     margin-bottom: 0;
     padding: 0;
-    font-family: 'Right Grotesk Medium';
+
     font-size: 16px;
-    font-weight: 900;
+    line-height: 19px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-family: 'Right Grotesk';
+    width: 337px;
+    height: 70px;
+    font-size: 28px;
+    line-height: 34px;
   }
 }
 

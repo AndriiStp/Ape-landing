@@ -1,10 +1,10 @@
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as yup from "yup";
-import Notiflix from "notiflix";
-import css from "./Form.module.css";
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+import * as yup from 'yup';
+import Notiflix from 'notiflix';
+import css from './Form.module.css';
 
-import svgDiscord from "../../../images/svg/discord.svg";
-import svgMetamask from "../../../images/svg/SVG_MetaMask_Icon_Color 1.svg";
+import svgDiscord from '../../../images/svg/discord.svg';
+import svgMetamask from '../../../images/svg/SVG_MetaMask_Icon_Color 1.svg';
 
 const ContactForm = () => {
   const handleSubmit = (values, { resetForm }) => {
@@ -13,21 +13,21 @@ const ContactForm = () => {
   };
 
   const initialValues = {
-    discord: "",
-    metamask: "",
+    discord: '',
+    metamask: '',
   };
 
   let userSchema = yup.object({
     discord: yup
       .string()
-      .min(6, "Too short")
-      .max(16, "Too Long")
-      .required("Wrong discord"),
+      .min(6, 'Too short')
+      .max(16, 'Too Long')
+      .required('Wrong discord'),
     metamask: yup
       .string()
-      .min(6, "Too short")
-      .max(16, "Too Long")
-      .required("Wrong ADDRESS"),
+      .min(6, 'Too short')
+      .max(16, 'Too Long')
+      .required('Wrong ADDRESS'),
   });
 
   return (
@@ -44,12 +44,14 @@ const ContactForm = () => {
                 <img
                   src={svgDiscord}
                   alt=""
-                  style={{ width: "24px", height: "24px" }}
+                  style={{ width: '24px', height: '24px' }}
                 />
               </div>
               <Field
                 placeholder="@username"
-                className={css.contactField}
+                className={`${css.contactField} ${
+                  errors.discordActive && touched.discord && css.errorBorder
+                }`}
                 type="text"
                 name="discord"
               ></Field>
@@ -62,14 +64,16 @@ const ContactForm = () => {
             <div className={css.inputWapper}>
               <div className={css.inputBefore}>
                 <img
-                  style={{ width: "24px", height: "24px" }}
+                  style={{ width: '24px', height: '24px' }}
                   src={svgMetamask}
                   alt=""
                 />
               </div>
               <Field
                 placeholder="Wallet address"
-                className={css.contactField}
+                className={`${css.contactField} ${
+                  errors.metamaskActive && touched.metamask && css.errorBorder
+                }`}
                 type="text"
                 name="metamask"
               ></Field>
