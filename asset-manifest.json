@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ape-landing/static/css/main.c4ef59e5.css",
-    "main.js": "/Ape-landing/static/js/main.6bbd730a.js",
+    "main.css": "/Ape-landing/static/css/main.725ddf44.css",
+    "main.js": "/Ape-landing/static/js/main.af8c2070.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/Ape-landing/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/Ape-landing/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
     "static/media/BiroScriptPlus-Sloppy.eot": "/Ape-landing/static/media/BiroScriptPlus-Sloppy.857bca03a4cce14fd651.eot",
@@ -100,16 +100,20 @@
     "static/media/MessinaSansMono-Bold.woff2": "/Ape-landing/static/media/MessinaSansMono-Bold.61910e51851cc8d59a12.woff2",
     "static/media/MessinaSansMono-Black.woff2": "/Ape-landing/static/media/MessinaSansMono-Black.371abe33808d4457f340.woff2",
     "static/media/Ape7mob1x-min.jpg": "/Ape-landing/static/media/Ape7mob1x-min.0c02b86658ea8076ae45.jpg",
+    "static/media/Frame.svg": "/Ape-landing/static/media/Frame.55088815e7181666eb90437b0ee61cbf.svg",
     "static/media/SVG_MetaMask_Icon_Color 1.svg": "/Ape-landing/static/media/SVG_MetaMask_Icon_Color 1.1e1318ed1d79874e18f31e148cd282c9.svg",
+    "static/media/ship.svg": "/Ape-landing/static/media/ship.f6ab9f2c0d4e7ad9164f5d3af1d80bdc.svg",
     "static/media/discord.svg": "/Ape-landing/static/media/discord.7d6b920863b971801cacad7bf38f60b7.svg",
+    "static/media/discord_black.svg": "/Ape-landing/static/media/discord_black.2bbbb00653b2dd26f096f16d89ab4f7b.svg",
     "index.html": "/Ape-landing/index.html",
+    "static/media/logoTwitter.svg": "/Ape-landing/static/media/logoTwitter.1598e347893c62e9ec0ca840b13da98a.svg",
     "static/media/add-sharp.svg": "/Ape-landing/static/media/add-sharp.b0b41e22f2ce59bcad4172ba8c19bc07.svg",
     "static/media/Vector.svg": "/Ape-landing/static/media/Vector.737a3f1d9ac4e3cc9019b0e876f19598.svg",
-    "main.c4ef59e5.css.map": "/Ape-landing/static/css/main.c4ef59e5.css.map",
-    "main.6bbd730a.js.map": "/Ape-landing/static/js/main.6bbd730a.js.map"
+    "main.725ddf44.css.map": "/Ape-landing/static/css/main.725ddf44.css.map",
+    "main.af8c2070.js.map": "/Ape-landing/static/js/main.af8c2070.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4ef59e5.css",
-    "static/js/main.6bbd730a.js"
+    "static/css/main.725ddf44.css",
+    "static/js/main.af8c2070.js"
   ]
 }
