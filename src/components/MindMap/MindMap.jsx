@@ -12,7 +12,7 @@ const MindMap = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
   return (
-    <section className={css.mindMap}>
+    <section id="#m-map" className={css.mindMap}>
       <h1 className={css.mindTitle}>Mind Map</h1>
       {isMobile ? (
         <Swiper

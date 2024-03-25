@@ -14,7 +14,7 @@ const About = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
   return (
-    <section className={css.aboutSection}>
+    <section id="#about" className={css.aboutSection}>
       <div className={css.aboutContainer}>
         <div className={css.aboutBigPositionWrapper}>
           <div className={css.aboutFirstBigPosition}>
