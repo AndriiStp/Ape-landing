@@ -1,13 +1,12 @@
-.swiperController {
+.swiperModule {
   width: 216px;
 
   @media screen and (min-width: 768px) {
     width: 592px;
-    /* height: 336px; */
   }
+
   @media screen and (min-width: 1028px) {
     width: 1032px;
-    /* height: 280px; */
   }
 }
 
@@ -26,23 +25,6 @@
     width: 240px;
     height: 280px;
   }
-}
-
-.sliderNavigation {
-  display: flex;
-  justify-content: center;
-  gap: 48px;
-}
-.sliderPrev,
-.sliderNext {
-  color: #fff;
-  cursor: pointer;
-
-  font-family: 'Biro Script Plus';
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 125% */
 }
 
 .imageSizing {
