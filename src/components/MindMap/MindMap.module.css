@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   @media screen and (min-width: 768px) {
     padding-top: 80px;
   }
@@ -12,24 +13,23 @@
 }
 .mindTitle {
   margin-bottom: 24px;
-  color: #fff;
 
   font-family: 'Right Grotesk';
   font-size: 44px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 40px; /* 90.909% */
+  line-height: 0.91;
   text-transform: uppercase;
+
+  color: #fff;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 40px;
     font-size: 80px;
-    line-height: 80px;
+    line-height: 1;
   }
   @media screen and (min-width: 1280px) {
     margin-bottom: 80px;
     font-size: 160px;
-    line-height: 160px;
+    line-height: 1;
   }
 }
 
@@ -41,11 +41,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   width: 216px;
   height: 242px;
   padding: 24px 12px;
   border-radius: 12px;
   background: #1e1e1e;
+
   @media screen and (min-width: 768px) {
     width: 284px;
     padding: 24px;
@@ -58,14 +60,13 @@
 }
 
 .mindDescription {
-  color: #fff;
-
   font-family: 'Messina Sans Mono';
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 14px; /* 116.667% */
+  line-height: 1.17;
   text-transform: uppercase;
+
+  color: #fff;
+
   @media screen and (min-width: 768px) {
     width: 128px;
     margin-left: auto;
@@ -74,23 +75,23 @@
   @media screen and (min-width: 1280px) {
     width: 228px;
     font-size: 24px;
-    line-height: 29px; /* 120.833% */
+    line-height: 1.2;
   }
 }
 
 .mindCardTitle {
-  color: #fff;
-
   font-family: 'Right Grotesk';
   font-size: 32px;
   font-style: normal;
   font-weight: 900;
-  line-height: 32px; /* 100% */
+  line-height: 1;
   text-transform: uppercase;
+
+  color: #fff;
 
   @media screen and (min-width: 1280px) {
     font-size: 64px;
-    line-height: 64px; /* 100% */
+    line-height: 1;
   }
 }
 
@@ -99,6 +100,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+
   width: 216px;
   height: 242px;
   padding: 24px 12px;
@@ -130,16 +132,16 @@
   justify-content: center;
   gap: 48px;
 }
+
 .sliderPrev,
 .sliderNext {
-  color: #fff;
   cursor: pointer;
 
   font-family: 'Biro Script Plus';
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 125% */
+  line-height: 1.25;
+
+  color: #fff;
 }
 
 .gridContainer {

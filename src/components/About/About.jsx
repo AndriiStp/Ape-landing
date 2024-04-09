@@ -1,15 +1,15 @@
 import css from './About.module.css';
-import crossDivide from '../../images/svg/add-sharp.svg';
-import React from 'react';
-// import Marquee from 'react-fast-marquee';
-import MarqueeBanner from '../MarqueeBanner/MarqueeBanner';
 import { useMediaQuery } from 'react-responsive';
+
+import MarqueeBanner from '../MarqueeBanner/MarqueeBanner';
+
 import aboutApeMobile1x from '../../images/mobile/AboutApe-mob1x-min.png';
 import aboutApeMobile2x from '../../images/mobile/AboutApe-mob2x-min.png';
 import aboutApeTablet1x from '../../images/tablet/AboutApe-tablet1x-min.png';
 import aboutApeTablet2x from '../../images/tablet/AboutApe-tablet2x-min.png';
 import aboutApeDesk1x from '../../images/desktop/AboutApe-desk1x-min.png';
 import aboutApeDesk2x from '../../images/desktop/AboutApe-desk2x-min.png';
+import crossDivide from '../../images/svg/add-sharp.svg';
 
 const About = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
