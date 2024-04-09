@@ -25,6 +25,7 @@ function GlobalWrapper() {
     </>
   );
 }
+
 function App() {
   return <GlobalWrapper />;
 }
