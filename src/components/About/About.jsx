@@ -84,7 +84,6 @@ const About = () => {
             srcSet={`${aboutApeDesk1x} 1x, ${aboutApeDesk2x} 2x`}
             media="(min-width: 1280px)"
           />
-
           <source
             srcSet={`${aboutApeTablet1x} 1x, ${aboutApeTablet2x} 2x`}
             media="(min-width: 768px)"
