@@ -16,7 +16,7 @@
   margin: 0 auto;
   text-align: center;
 
-  color: #fff;
+  color: var(--main-color-white);
 
   font-family: 'Messina Sans Mono';
   font-size: 12px;

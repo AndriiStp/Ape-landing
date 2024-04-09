@@ -57,7 +57,7 @@
   line-height: 1;
   text-transform: uppercase;
 
-  color: #fff;
+  color: var(--main-color-white);
 
   @media screen and (min-width: 768px) {
     width: 269px;
@@ -74,7 +74,7 @@
 }
 
 .aboutTitle > .aboutTitleColored {
-  color: #dc3b5a;
+  color: var(--secondary-rose-color);
 }
 
 .aboutDescr {
@@ -87,7 +87,7 @@
   line-height: 1.19;
   text-transform: uppercase;
 
-  color: #fff;
+  color: var(--main-color-white);
 
   @media screen and (min-width: 768px) {
     width: 275px;
@@ -116,13 +116,14 @@
 .aboutText {
   width: 216px;
   margin-bottom: 40px;
-  color: #fff;
 
   font-family: 'Messina Sans Mono';
   font-size: 12px;
   line-height: 1.17;
   text-transform: uppercase;
   text-align: center;
+
+  color: var(--main-color-white);
 
   @media screen and (min-width: 768px) {
     width: 269px;

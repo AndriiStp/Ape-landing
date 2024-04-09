@@ -19,7 +19,7 @@
   line-height: 0.91;
   text-transform: uppercase;
 
-  color: #fff;
+  color: var(--main-color-white);
 
   @media screen and (min-width: 768px) {
     margin-bottom: 40px;
@@ -46,7 +46,7 @@
   height: 242px;
   padding: 24px 12px;
   border-radius: 12px;
-  background: #1e1e1e;
+  background: var(--main-black-color);
 
   @media screen and (min-width: 768px) {
     width: 284px;
@@ -65,7 +65,7 @@
   line-height: 1.17;
   text-transform: uppercase;
 
-  color: #fff;
+  color: var(--main-color-white);
 
   @media screen and (min-width: 768px) {
     width: 128px;
@@ -87,7 +87,7 @@
   line-height: 1;
   text-transform: uppercase;
 
-  color: #fff;
+  color: var(--main-color-white);
 
   @media screen and (min-width: 1280px) {
     font-size: 64px;
@@ -105,7 +105,7 @@
   height: 242px;
   padding: 24px 12px;
   border-radius: 12px;
-  background: #dc3b5a;
+  background: var(--secondary-rose-color);
   @media screen and (min-width: 768px) {
     width: 284px;
     padding: 24px;
@@ -141,7 +141,7 @@
   font-size: 24px;
   line-height: 1.25;
 
-  color: #fff;
+  color: var(--main-color-white);
 }
 
 .gridContainer {
