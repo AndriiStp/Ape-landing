@@ -21,7 +21,7 @@ export const BurgerMenu = ({ handleToggleMenuOpen, isMenuOpen }) => {
     };
   }, [isMenuOpen, handleToggleMenuOpen]);
 
-  const handleMenuItemClick = (event, sectionId) => {
+  const handleMenuClick = (event, sectionId) => {
     event.preventDefault();
     handleToggleMenuOpen(false);
     const section = document.getElementById(sectionId);
@@ -36,7 +36,7 @@ export const BurgerMenu = ({ handleToggleMenuOpen, isMenuOpen }) => {
 
   return createPortal(
     <nav className={`${css.mobileMenu} ${isMenuOpen ? css.openMenu : ''}`}>
-      <div className={css.mobileBox}>
+      <div className={css.mobileWrapper}>
         <div
           style={{
             filter: 'invert(100%) brightness(200%)',
@@ -49,7 +49,7 @@ export const BurgerMenu = ({ handleToggleMenuOpen, isMenuOpen }) => {
           <button
             type="button"
             aria-label="Close"
-            className={css.btnMenu}
+            className={css.buttonMenu}
             onClick={handleToggleMenuOpen}
           >
             CLOSE
@@ -59,27 +59,27 @@ export const BurgerMenu = ({ handleToggleMenuOpen, isMenuOpen }) => {
       </div>
       <ul className={css.menuList}>
         <li>
-          <a href="#about" onClick={e => handleMenuItemClick(e, '#about')}>
+          <a href="#about" onClick={e => handleMenuClick(e, '#about')}>
             ABOUT
           </a>
         </li>
         <li>
-          <a href="#m-map" onClick={e => handleMenuItemClick(e, '#m-map')}>
+          <a href="#m-map" onClick={e => handleMenuClick(e, '#m-map')}>
             M-MAP
           </a>
         </li>
         <li>
-          <a href="#faq" onClick={e => handleMenuItemClick(e, '#faq')}>
+          <a href="#faq" onClick={e => handleMenuClick(e, '#faq')}>
             FAQ
           </a>
         </li>
         <li>
-          <a href="#arts" onClick={e => handleMenuItemClick(e, '#arts')}>
+          <a href="#arts" onClick={e => handleMenuClick(e, '#arts')}>
             ARTS
           </a>
         </li>
         <li>
-          <a href="#mint" onClick={e => handleMenuItemClick(e, '#mint')}>
+          <a href="#mint" onClick={e => handleMenuClick(e, '#mint')}>
             MINT
           </a>
         </li>

@@ -1,3 +1,15 @@
+.headreContainer {
+  position: relative;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+    width: 768px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+  }
+}
+
 .headerPos {
   width: 344px;
   position: absolute;
@@ -6,22 +18,18 @@
   margin-top: 10px;
   padding: 0, 8px;
 }
-/* .socialMenu {
-  position: fixed;
-  top: 62px;
-  right: 16px;
-
-  @media screen and (min-width: 768px) {
-    top: 66px;
-    right: 28px;
-  }
-} */
 
 .navButtons {
   display: flex;
-
-  align-items: center;
   flex-direction: column;
+  position: fixed;
+  top: 62px;
+  right: 16px;
+  @media screen and (min-width: 768px) {
+    top: 66px;
+    right: 28px;
+    margin-left: 676px;
+  }
 }
 
 .menuButtonContent {

@@ -1,0 +1,15 @@
+.sliderNavigation {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.sliderPrev,
+.sliderNext {
+  cursor: pointer;
+
+  font-family: 'Biro Script Plus';
+  font-size: 24px;
+  line-height: 1.25;
+
+  color: var(--main-color-white);
+}

@@ -1,10 +1,9 @@
-import React from 'react';
+import css from './MindMap.module.css';
 import { useMediaQuery } from 'react-responsive';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import css from './MindMap.module.css';
 
 import svgArrov from '../../images/svg/Vector.svg';
 
@@ -12,7 +11,7 @@ const MindMap = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
   return (
-    <section className={css.mindMap}>
+    <section id="#m-map" className={css.mindMap}>
       <h1 className={css.mindTitle}>Mind Map</h1>
       {isMobile ? (
         <Swiper

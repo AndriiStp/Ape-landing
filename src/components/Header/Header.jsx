@@ -12,22 +12,27 @@ const Header = () => {
   };
 
   return (
-    <header className={css.headerPos}>
-      <Logo />
-      <div className={css.navButtons}>
-        <button
-          type="button"
-          className={css.menuButtonContent}
-          onClick={handleToggleMenuOpen}
-        >
-          MENU
-        </button>
-        <SocialLinkButtons />
-      </div>
-      {isMenuOpen && (
-        <BurgerMenu isOpenMenu={isMenuOpen} toggleMenu={handleToggleMenuOpen} />
-      )}
-    </header>
+    <div className={css.headerContainer}>
+      <header className={css.headerPos}>
+        <Logo />
+        <div className={css.navButtons}>
+          <button
+            type="button"
+            className={css.menuButtonContent}
+            onClick={handleToggleMenuOpen}
+          >
+            MENU
+          </button>
+          <SocialLinkButtons />
+        </div>
+        {isMenuOpen && (
+          <BurgerMenu
+            isOpenMenu={isMenuOpen}
+            toggleMenu={handleToggleMenuOpen}
+          />
+        )}
+      </header>
+    </div>
   );
 };
 

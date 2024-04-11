@@ -1,20 +1,21 @@
 import css from './About.module.css';
-import crossDivide from '../../images/svg/add-sharp.svg';
-import React from 'react';
-import Marquee from 'react-fast-marquee';
 import { useMediaQuery } from 'react-responsive';
+
+import MarqueeBanner from '../MarqueeBanner/MarqueeBanner';
+
 import aboutApeMobile1x from '../../images/mobile/AboutApe-mob1x-min.png';
 import aboutApeMobile2x from '../../images/mobile/AboutApe-mob2x-min.png';
 import aboutApeTablet1x from '../../images/tablet/AboutApe-tablet1x-min.png';
 import aboutApeTablet2x from '../../images/tablet/AboutApe-tablet2x-min.png';
 import aboutApeDesk1x from '../../images/desktop/AboutApe-desk1x-min.png';
 import aboutApeDesk2x from '../../images/desktop/AboutApe-desk2x-min.png';
+import crossDivide from '../../images/svg/add-sharp.svg';
 
 const About = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
   return (
-    <section className={css.aboutSection}>
+    <section id="#about" className={css.aboutSection}>
       <div className={css.aboutContainer}>
         <div className={css.aboutBigPositionWrapper}>
           <div className={css.aboutFirstBigPosition}>
@@ -83,7 +84,6 @@ const About = () => {
             srcSet={`${aboutApeDesk1x} 1x, ${aboutApeDesk2x} 2x`}
             media="(min-width: 1280px)"
           />
-
           <source
             srcSet={`${aboutApeTablet1x} 1x, ${aboutApeTablet2x} 2x`}
             media="(min-width: 768px)"
@@ -100,21 +100,7 @@ const About = () => {
           />
         </picture>
       </div>
-
-      <div className={css.marqueeBlock}>
-        <Marquee autoFill="true">
-          <div className={css.marqueeContent}>
-            <div className={css.marqueeText}>
-              <div>HAVE NO LIMITS</div>
-              <img className={css.marqueeCross} src={crossDivide} alt="cross" />
-              <div>BREAK RULES</div>
-              <img className={css.marqueeCross} src={crossDivide} alt="cross" />
-              <div>DESTROY STEREOTYPES</div>
-              <img className={css.marqueeCross} src={crossDivide} alt="cross" />
-            </div>
-          </div>
-        </Marquee>
-      </div>
+      <MarqueeBanner />
     </section>
   );
 };

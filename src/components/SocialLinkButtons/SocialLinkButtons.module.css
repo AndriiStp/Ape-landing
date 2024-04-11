@@ -31,7 +31,7 @@
 }
 
 .menuButtonContent {
-  color: #1e1e1e;
+  color: var(--main-black-color);
   border: none;
   background-color: transparent;
 

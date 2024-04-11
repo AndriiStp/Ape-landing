@@ -1,5 +1,6 @@
-/* @import-normalize; */
+@import-normalize;
 @import './style/fonts/fonts.css';
+@import './style/variables.css';
 
 *,
 *::before,

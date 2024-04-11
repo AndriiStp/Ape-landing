@@ -10,7 +10,7 @@ const Faq = () => {
   };
 
   return (
-    <section className={css.faqSection}>
+    <section id="#faq" className={css.faqSection}>
       <h1 className={css.faqTitle}>FAQ</h1>
       <ul className={css.faqList}>
         <li

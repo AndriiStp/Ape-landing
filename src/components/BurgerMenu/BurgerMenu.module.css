@@ -1,2 +1,73 @@
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
 
+  background-color: #181818;
+  color: #1e1e1e;
+  transform: translateX(100%);
+  transition: transform 750ms var(--timing-function);
+  z-index: 2;
+}
 
+.mobileMenu.openMenu {
+  transform: translateX(0);
+  transition: transform 750ms var(--timing-function);
+}
+
+.mobileWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 16px;
+}
+
+.btuttonMenu {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  width: 48px;
+  height: 48px;
+
+  backdrop-filter: blur(6px);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: color 250ms var(--timing-function);
+
+  color: #fff;
+  font-family: 'Messina Sans Mono';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.1667;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin-top: 16px;
+
+  color: #fff;
+  font-family: 'Messina Sans Mono';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.208;
+}
+
+.menuList a {
+  color: inherit;
+}
+
+.menuCopyright {
+  margin-top: 186px;
+  text-align: center;
+  font-family: 'Messina Sans Mono';
+  font-size: 12px;
+  line-height: 1.1667;
+  text-transform: uppercase;
+  bottom: 80px;
+  color: #fff;
+}
